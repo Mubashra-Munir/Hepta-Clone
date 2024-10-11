@@ -1,0 +1,51 @@
+/* Footer.css */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+
+  footer {
+      background-color: #000; /* Ensure the black background */
+    }
+    
+    footer h5 {
+      color: #fff;
+      margin-bottom: 20px;
+      font-family:Abril Fatface;
+    }
+    
+    footer a:hover {
+      color: #878b8fa9; /* Lighter color on hover */
+      transition: 0.5s;
+      font-family: mukta mahee;
+    }
+    
+    footer .fab {
+      font-size: 1.25rem;
+      text-decoration: none;
+      padding: 2px;
+      margin: 2px;
+    }
+    
+    footer p.text-muted {
+      font-size: 0.9rem;
+    }
+    
+    footer .btn {
+      background-color: #007bff; /* Bootstrap primary color */
+      border: none;
+    }
+    footer a:hover i{
+      color: #878b8fa9; /* Lighter color on hover */
+      transition: 0.5s;
+    }
+    footer a{
+      color: #878b8fa9; /* Lighter color on hover */
+      transition: 0.5s;
+      margin: 3px;
+      padding: 3px;
+      margin-top: 3px;
+      margin-bottom: 5px;
+    }

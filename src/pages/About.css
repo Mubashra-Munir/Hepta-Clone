@@ -1,0 +1,10 @@
+.hero-section-about {
+    background-image: url('../assets/images/slider-1.jpg');
+    background-size: cover ;
+    height: 100vh;
+    /* Full screen height */
+    max-width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+    background-repeat: no-repeat;
+}

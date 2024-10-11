@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    background-color:transparent;
+    position:absolute;
+    z-index: 2;
+    width: 100%;
+    padding: 50px 0;
+    unicode-bidi: isolate;
+    animation-duration: 1500ms;
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.navbar-toggler{
+    margin-top: 20px; 
+    padding-right: 5px;
+    padding-left: 50px;
+}
+.navbar-brand{
+    font-family: Abril Fatface;
+    font-weight: 700;
+    color:rgb(19, 16, 16);
+}
+.nav-item{
+    color:hsl(229, 95%, 85%);
+    font-weight: 800;
+}

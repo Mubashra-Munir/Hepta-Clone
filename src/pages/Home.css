@@ -1,0 +1,148 @@
+/* Hero section styles */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.hero-section {
+    background-image: url('../assets/images/hero_1.jpg');
+    /* Use a local image */
+    background-size: cover;
+    /* background-position: ; */
+    height: 100vh;
+    /* Full screen height */
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+}
+
+.hero-content {
+    height: 100vh;
+}
+
+.display-4 {
+    font-family: Abril Fatface;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    size: 80px;
+    line-height: 80px;
+    margin-top: 0px;
+    padding-top: 150px;
+}
+
+.top-text {
+    /* max-width: 100%;
+    width:610px;
+    height: 144px; */
+    /* padding-left: 100px; */
+    /* margin-top: 50px; */
+    padding-top: 0px;
+    margin: auto;
+    width: 50%;
+}
+
+/* ServiceSection */
+.service-container {
+    border-top: solid rgb(185, 184, 184);
+    border-width: 1px;
+}
+
+.heading {
+    padding-top: 10px;
+
+}
+
+ .image {
+    width: 70px;
+    height: 70px;
+} 
+
+.btn-play text {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.align-self-center {
+    align-self: center !important;
+
+}
+
+a {
+    color: #65c0ba;
+}
+
+.about-section {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    padding-top: 150px;
+    font-family: Abril Fatface;
+    padding-left: 50px;
+}
+
+.destination-heading {
+    padding-top: 0px;
+    margin: auto;
+    width: 60%;
+    line-height: 2;
+
+}
+
+.top-text1 {
+    margin-top: 0px;
+}
+
+/* .follower{
+    width: 100px;
+   height: 100px;
+   border-radius:30px; 
+  
+}
+.follower-name{
+   background-color: transparent;
+} */
+.follower{
+    border: 1px solid;
+    border-radius: 800px;
+    width: 75px;
+}
+/* slider */
+.carousel-inner img {
+    height: 100vh; /* Adjust height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .carousel-caption {
+    bottom: 20%; /* Positioning the caption */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem; /* Adjust font size */
+    color: #fff; /* Text color */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem; /* Adjust font size */
+    color: #fff; /* Text color */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem; /* Smaller font size on mobile */
+    }
+  }
+  .text{
+    line-height: 30px;
+  }
+  .about-image{
+      height: 50px;
+  }

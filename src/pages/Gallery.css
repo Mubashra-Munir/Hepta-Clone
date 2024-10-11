@@ -1,0 +1,11 @@
+.hero-section-gallery {
+    background-image: url('../assets/images/top2.jpg');
+    /* Use a local image */
+    background-size: cover;
+    /* background-position: ; */
+    height: 100vh;
+    /* Full screen height */
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+}

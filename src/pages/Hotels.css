@@ -1,0 +1,75 @@
+/* Hero section styles */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.hero-section-hotels  {
+    background-image: url('../assets/images/bg-2.jpg'); /* Use a local image */
+    background-size: cover;
+    /* background-position: ; */
+    height: 100vh; /* Full screen height */
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+  }
+  
+  .hero-content {
+    height: 100vh; /* Make the content container take full viewport height */
+  }
+.display-4{
+   font-family: Abril Fatface;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  size: 80px;
+  line-height: 80px;
+  margin-top: 0px;
+  padding-top: 150px;
+} 
+/* ServiceSection */
+.service-container{
+    border-top:solid rgb(185, 184, 184);
+    border-width: 1px;
+}
+.heading{
+    padding-top: 10px;
+    
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.btn-play text{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.align-self-center{
+    align-self: center !important;
+
+}
+a{
+    color: #65c0ba;
+}
+/* About Section */
+.btn-play text{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.align-self-center{
+    align-self: center !important;
+
+}
+a{
+    color: #65c0ba;
+}
+.about-section{
+    margin-top: 70px;
+    margin-bottom:80px;
+}
+h2{
+    padding-top: 150px;
+    font-family: Abril Fatface;
+    padding-left: 50px;
+}
+/* .img-fluid{
+height: 342px;
+width: 300px;
+}  */

@@ -1,0 +1,123 @@
+.hero-section-news {
+    background-image: url('../assets/images/hero_3.jpg');
+    /* Use a local image */
+    background-size: cover;
+    /* background-position: ; */
+    height: 100vh;
+    /* Full screen height */
+    width: 100%;
+    margin-top: 0%;
+    padding: 0px;
+}
+/* Main Blog Section */
+.blog-page {
+    padding: 2em 0;
+  }
+  
+  /* Blog Entry */
+  .blog-entry {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .blog-entry:hover {
+    transform: translateY(-10px);
+  }
+  
+  .block-20 {
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .block-20 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text {
+    padding: 20px;
+  }
+  
+  .meta {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .meta a {
+    color: #999;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .meta a:hover {
+    color: #17a2b8;
+  }
+  
+  .heading a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .heading a:hover {
+    color: #17a2b8;
+  }
+  
+  /* Sidebar (Popular Posts) */
+  .sidebar-box {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .popular-post {
+    margin-bottom: 20px;
+  }
+  
+  .popular-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  
+  .popular-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .popular-text h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .popular-text .meta {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .popular-text a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .popular-text a:hover {
+    color: #17a2b8;
+  }
+  
